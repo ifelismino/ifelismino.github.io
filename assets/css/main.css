@@ -2006,6 +2006,7 @@ input, select, textarea {
 		padding: 14em 0 14em 0;
 		cursor: default;
 		background: url("../../images/header.png");
+		background-position: center;
 	}
 
 		#header header {
