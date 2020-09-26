@@ -21,4 +21,6 @@ function openCity(evt, cityName) {
 
 window.addEventListener("load", function(){
     document.getElementById("defaultOpen").click();
+    document.getElementsByTagName("html")[0].style.visibility = "visible";
 });
+
