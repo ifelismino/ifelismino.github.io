@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Modified for use by: Ian Felismino
+-->
+<html>
+	<head>
+		<title>Ian Felismino | Systems Developer</title>
+		<link rel = "icon" href="images/logo.png" type ="image/x-icon">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div class="Resume">
+			<a href="[CV] FELISMINO, JOHN IAN KENNETH.pdf" download>
+				<button>Resume</button>
+			</a>
+			<a href="mailto:ifelismino19@gmail.com?subject=Title&body=The message">
+				<button class="icon fa-envelope"></button>
+			</a>
+		</div>
+
+		<div class="sidenav">
+			Contact me at: <a href="mailto:ifelismino19@gmail.com?subject=Title&body=The message">ifelismino19@gmail.com</a>
+		  </div>
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Ian Felismino</h1>
+					<p>Developer</p>
+				</header>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Hi! I'm Ian Felismino.</h2>
+				</header>
+				<p>I am a Systems Developer in the Philippines. <br>I primarily work with legacy applications using VB.NET but I am currently learning lots of other stuff.
+				</p>
+			</section>
+
+		<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image left"><img src="images/self.jpg" alt="A selfie of myself." /></a>
+				<div class="inner">
+					<header>
+						<h2>About Me</h2>
+					</header>
+					<p>I am from Muntinlupa, also known as the Emerald City of the Philippines.</p>
+					<p>A Junior Systems Developer in GASC in Makati.</p>
+					<p>I completed my bachelors in Physics from UP Diliman (2013 - 2018).</p>
+					<p>A lot of things interest me, here are some of them:</p>
+					<ul>
+						<li>Systems Development</li>
+						<li>Digital Art</li>
+						<li>Game Development</li>
+						<li>Scientific Research</li>
+						<li>Data Science</li>
+					</ul>
+				</div>
+			</article>
+
+		<!-- Feature 2 -->
+			<article class="container box style3 ">
+				<header>
+					<h2>Experience</h2>
+				</header>
+				<div class="tab">
+					<button class="tablinks" onclick="openCity(event, 'GASC')" id="defaultOpen">Green AdvancedTech Solutions Corp.</button>
+					<button class="tablinks" onclick="openCity(event, 'SPP')">Samahang Pisika ng Pilipinas</button>
+					<button class="tablinks" onclick="openCity(event, 'SanD')">Structure and Dynamics Laboratory</button>
+				</div>
+				<div id="GASC" class="tabcontent">
+					<h3>Green AdvancedTech Solutions Corporation</h3>
+					<h5>Ayala, Makati City</h5>
+					<p>Junior Systems Developer<br>
+						<em>May 2019 - Present</em></p>
+				  </div>
+				  
+				  <div id="SPP" class="tabcontent">
+					<h3>Samahang Pisika ng Pilipinas Conferences</h3>
+					<a href="https://paperview.spp-online.org/proceedings/article/view/SPP-2018-PB-51">Comparison of Python GPU implementations of eigensolvers</a>
+					<p>Poster Presentation<br>
+						<em>June 2018</em><br></p>
+					<a href="https://paperview.spp-online.org/proceedings/article/view/69">Wigner functions and uncertainty products from partially transposed Dicke model ground states</a>
+					<p>Poster Presentation<br>
+						<em>June 2017</em><br></p>
+				  </div>
+				  
+				  <div id="SanD" class="tabcontent">
+					<h3>Structure and Dynamics Laboratory</h3>
+					<h5>National Institute of Physics, UP Diliman</h5>
+					<p>Member<br>
+						<em>August 2016 - December 2018</em></p>
+				  </div>
+				  &emsp; &emsp;
+			</article>
+
+		<!-- Feature 3 -->
+		<article id="first" class="container box style1 left">
+			<a href="#" class="image fit"><img src="images/DMRG.png" alt="DMRG Benchmark" /></a>
+			<div class="inner">
+				<header>
+					<h2>Featured Project</h2>
+					<h4>GPU-Accelerated DMRG (Dec 2018)</h4>
+				</header>
+				<p>A CPU-GPU hybrid approach for Density Matrix Renormalization Group calculations was developed for this project. Matrix-Matrix and Matrix-Vector
+					 operations are done in the GPU provided that the scale of the operation is large enough for increase in calculation speed to overtake the data copying overhead.
+				</p>
+				<p>Modified from <a href="https://github.com/GiggleLiu/Jacobi_Davidson.git">Leo GiggleLiu's Jacobi-Davidson Algorithm</a>. The algorithm works best with systems with high diagonally dominance <em>r</em>.</p>
+				<p>Python 3.6 <a class="icon brands fa-github" href="https://github.com/ifelismino/gpu-dmrg"></a></p>
+			</div>
+		</article>
+
+		<!-- Feature 4 -->
+		<article id="first" class="container box style1 right">
+			<a href="#" class="image fit"><img src="images/Divinity Tactics.gif" alt="Basic DMRG Step " /></a>
+			<div class="inner">
+				<header>
+					<h2>Featured Project</h2>
+					<h4>Turn-based Tactical RPG (In Progress)</h4>
+				</header>
+				<p>
+					An isometric turn-based tactical RPG inspired by games like Final Fantasy Tactics by Square Enix, and Divinity: Original Sins by Larian Studios.
+				</p>
+				<p>
+					The project is currently in systems prototyping stage and using free 3d assets.
+				</p>
+				<p>This is made with the Godot Game Engine. The art, programming, story and music will all be done by myself so this project will take a long time.</p>
+				<p>GDScript</p>
+			</div>
+		</article>
+		<!-- Portfolio  -->
+			<article class="container box style2">
+				<header>
+					<h2>Digital Illustrations</h2>
+				</header>
+				<div class="inner gallery">
+					<div class="row gtr-0">
+						<div class="col-3 col-12-mobile"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Berserker" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Feitan" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Rose - A Photo Study" /></a></div>
+						<div class="col-3 col-12-mobile"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="Retired Biotic" /></a></div>
+					</div>
+				</div>
+			</article>
+	
+		<!-- Contact -->
+			<article class="container box style3">
+				<header>
+					<h2>Contact Me</h2>
+					<p>I am always up for a conversation.</p>
+					<a href="mailto:ifelismino19@gmail.com?subject=Title&body=The message">
+						<input type="submit" value="Send Message" />
+					</a>
+				</header>
+
+			</article>
+		<section id="footer">
+					<!--
+			<ul class="icons">
+				<li><a href="#" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+				<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+			</ul>
+			-->
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Overflow. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/openTab.js"></script>
+	</body>
+</html>
