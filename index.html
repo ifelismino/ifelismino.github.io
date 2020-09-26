@@ -16,7 +16,7 @@
 	</head>
 	<body class="is-preload">
 		<script>
-			$('html, body').css({
+			$('html').css({
 			'overflow': 'hidden',
 			'height': '100%'
 			})
@@ -194,11 +194,11 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/openTab.js"></script>
+			<script>
+				$('html').css({
+				'overflow': 'auto',
+				'height': 'auto'
+				})
+			</script>
 	</body>
-	<script>
-		$('html, body').css({
-		'overflow': 'auto',
-		'height': 'auto'
-		})
-	</script>
 </html>
